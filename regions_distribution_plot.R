@@ -21,8 +21,8 @@ option_list = list(
 
 
 
-names=strsplit(option_list$names)
-bed_files=strsplit(option_list$bed_files)
+names=strsplit(option_list$names,',')
+bed_files=strsplit(option_list$bed_files,',')
 output_file=option_list$out
 genome=option_list$genome
 
