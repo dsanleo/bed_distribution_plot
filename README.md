@@ -10,4 +10,5 @@ conda create --name distribution_plot r bioconductor-chipseeker r-optparse bioco
 ```
 conda activate distribution_plot
 Rscript regions_distribution_plot.R -f file_1.bed,file_2.bed -n my_data_set_1,my_data_set_2 -g mm10 -o myoutput.pdf
+conda deactivate
 ```
