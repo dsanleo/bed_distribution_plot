@@ -4,7 +4,7 @@ It uses ChIPSeeker R package
 
 # Installation
 ```
-conda create --name distribution_plot r bioconductor-chipseeker r-optparse bioconductor-TxDb.Mmusculus.UCSC.mm10.knownGene bioconductor-TxDb.Mmusculus.UCSC.mm9.knownGene bioconductor-TxDb.Hsapiens.UCSC.hg19.knownGene bioconductor-TxDb.Hsapiens.UCSC.hg38.knownGene
+conda create --name distribution_plot r bioconductor-chipseeker r-optparse bioconductor-TxDb.Mmusculus.UCSC.mm10.knownGene bioconductor-TxDb.Mmusculus.UCSC.mm9.knownGene bioconductor-TxDb.Hsapiens.UCSC.hg19.knownGene bioconductor-TxDb.Hsapiens.UCSC.hg38.knownGene bioconductor-org.mm.eg.db bioconductor-org.hs.eg.db
 ```
 # Run example
 ```
